@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="code.js"></script>
+    <title>Taller Correctivo 2</title>
+</head>
+
+<body>
+    <div>Taller Correctivo 2</div>
+    <br>
+    <div>Ejercicio 1</div>
+    <p>Solicitar al usuario un número entero y mostrar por pantalla si el numero ingresado tiene o no tiene 3 cifras</p>
+    <label for="">Digite un número</label>
+    <input type="number" id="numero1">
+    <button onclick="hacerEjercicio1()">Determinar</button>
+    <br>
+    <label id="respuesta1"></label>
+    <br>
+    <div>Ejercicio 2</div>
+    <p>Solicitar al usuario un número entero menor a 1000 y mostrar por pantalla la cantidad de dígitos </p>
+    <label for="">Digite un número entero menor a mil</label>
+    <input type="number" id="numero2">
+    <button onclick="hacerEjercicio2()">Mostrar</button>
+    <br>
+    <label id="respuesta2"></label>
+    <br>
+    <div>Ejercicio 3</div>
+    <p>Solicitar al usuario dos números enteros menores a 1000 y mostrar por pantalla la cantidad de dígitos en total de
+        los dos números (Ejemplo 99 y 999 total 5 dígitos,
+        Y 1 total 4 dígitos)
+    </p>
+    <label for="">Digite un número </label>
+    <input type="number" id="numero3-1">
+    <label for="">Digite un número </label>
+    <input type="number" id="numero3-2">
+    <button onclick="hacerEjercicio3()">Mostrar</button>
+    <br>
+    <label id="respuesta3"></label>
+    <br>
+    <div>Ejercicio 4</div>
+    <p>Al ingresar el número de posición de una carrera indicar que medalla se debe entregar, 1 – oro 2- plata 3-
+        bronce, si es diferente a estos valores indicar que no gana medalla. </p>
+    <label for="">Número de posición :</label>
+    <input type="number" id="numero4">
+    <button onclick="hacerEjercicio4()">Indicar medalla</button>
+    <br>
+    <label id="respuesta4"></label>
+    <br>
+    <div>Ejercicio 5</div>
+    <p>Ingresar dos números enteros y restar el menor del mayor e imprimir el resultado.</p>
+    <label for="">Digite un número </label>
+    <input type="number" id="numero5-1">
+    <label for="">Digite un número </label>
+    <input type="number" id="numero5-2">
+    <button onclick="hacerEjercicio5()">Restar</button>
+    <br>
+    <label id="respuesta5"></label>
+    <br>
+    <div>Ejercicio 6</div>
+    <p>Al ingresar una nota entre 0 y 3 devolver la sección correspondiente de acuerdo con la siguiente secuencia: Muy
+        mal — 0, Mal - 1, Regular — 2 y Bien —3.
+    </p>
+    <label for="">Nota :</label>
+    <input type="number" id="numero6">
+    <button onclick="hacerEjercicio6()">Indicar sección</button>
+    <br>
+    <label id="respuesta6"></label>
+    <br>
+    <div>Ejercicio 7</div>
+    <p>Leer una persona el nombre y la edad. Si es mayor de edad mostrar por pantalla su nombre.
+    </p>
+    <label for="">Nombre :</label>
+    <input type="text" id="nombre7">
+    <label for="">Edad :</label>
+    <input type="number" id="numero7">
+    <button onclick="hacerEjercicio7()">Mostrar</button>
+    <br>
+    <label id="respuesta7"></label>
+    <br>
+    <div>Ejercicio 8</div>
+    <p>"Mega Pizzas” ofrece pizzas sencillas (S), dobles (D) y triples (T), las cuales tienen un
+        costo de $20, $25 y $30 respectivamente. La empresa acepta tarjetas de crédito con
+        un cargo de 5 % sobre la compra o efectivo sin cargo adicional. Suponiendo que los
+        clientes adquieren una pizza realice un algoritmo para determinar cuánto deben pagar. (En efectivo y con
+        tarjeta)
+    </p>
+    <p>Eliga su orden</p>
+    <form name="tipoPizza">
+        <input type="radio" id="sencilla" name="tipo" value="sencilla">Sencilla
+        <input type="radio" id="doble" name="tipo" value="doble">Doble
+        <input type="radio" id="triple" name="tipo" value="triple">Triple
+    </form>
+    <p>Eliga su medio de pago</p>
+    <select id="metodoPago">
+        <option value="0">Elige una opción</option>
+        <option value="1">Efectivo</option>
+        <option value="1">Tarjeta de Crédito</option>
+
+    </select>
+
+    <br>
+    <button onclick="hacerEjercicio8()">Calcular pago</button>
+    <div>Ejercicio 9</div>
+    <div>Ejercicio 10</div>
+</body>
+
+</html>
